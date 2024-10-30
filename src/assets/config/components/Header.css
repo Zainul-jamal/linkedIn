@@ -1,0 +1,54 @@
+/* src/components/Header.css */
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #283e4a;
+    color: white;
+    border-bottom: 1px solid #e1e9ee;
+}
+
+.header__left {
+    display: flex;
+    align-items: center;
+}
+
+.header__left img {
+    width: 40px;
+    margin-right: 10px;
+}
+
+.header__left input {
+    background-color: #3a4c55;
+    border: none;
+    padding: 8px;
+    color: white;
+    border-radius: 5px;
+    outline: none;
+}
+
+.header__right {
+    display: flex;
+    align-items: center;
+}
+
+.header__option {
+    margin: 0 15px;
+    cursor: pointer;
+    color: #cfd1d2;
+    font-weight: 600;
+}
+
+.header__option:hover {
+    color: white;
+}
+.btn{
+    padding: 8px 16px;
+    color: white;
+    background-color: #0073b1;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

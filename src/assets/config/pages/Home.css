@@ -1,0 +1,13 @@
+/* src/pages/Home.css */
+
+.home {
+    display: flex;
+    flex-direction: column;
+}
+
+.home__body {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: #eef3f8;
+}

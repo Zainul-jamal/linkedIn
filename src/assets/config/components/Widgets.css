@@ -1,0 +1,34 @@
+/* src/components/Widgets.css */
+
+.widgets {
+    width: 250px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.widgets__suggestions,
+.widgets__ads {
+    margin-bottom: 20px;
+}
+
+.widgets__suggestions h4,
+.widgets__ads h4 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.widgets__suggestions p,
+.widgets__ads p {
+    font-size: 14px;
+    color: #0073b1;
+    cursor: pointer;
+}
+
+.widgets__suggestions p:hover,
+.widgets__ads p:hover {
+    text-decoration: underline;
+}

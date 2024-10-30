@@ -1,0 +1,64 @@
+/* src/components/Feed.css */
+
+.feed {
+    flex: 1;
+    padding: 20px;
+    max-width: 600px;
+    background-color: #f3f6f8;
+}
+
+.feed__input {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.feed__input input {
+    flex: 1;
+    border: none;
+    outline: none;
+    padding: 8px;
+    margin-right: 10px;
+    background-color: #e9f0f4;
+    border-radius: 5px;
+}
+
+.feed__input button {
+    padding: 8px 16px;
+    color: white;
+    background-color: #0073b1;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.feed__posts {
+    margin-top: 20px;
+}
+
+.feed__post {
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.feed__post h3 {
+    font-size: 16px;
+    margin: 0;
+    color: #0073b1;
+}
+
+.feed__post p {
+    margin: 10px 0;
+    font-size: 14px;
+    color: #333;
+}
+.icon{
+    font-size: 10px;
+}
